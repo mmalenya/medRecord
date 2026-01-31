@@ -22,3 +22,49 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+#IDE files:
+.idea/ (IntelliJ)
+*.iml
+.vscode/
+*.swp
+
+#Build outputs:
+target/
+build/
+*.jar
+*.war
+
+#Python:
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.env
+
+#Terraform:
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars 
+.terraform.lock.hcl
+
+#Docker:
+.docker/
+
+#Environment and secrets:
+
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+#OS files:
+
+.DS_Store
+Thumbs.db
+
+#Logs:
+*.log
+logs/
